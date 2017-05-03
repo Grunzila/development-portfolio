@@ -1,15 +1,28 @@
 body {
     color:antiquewhite;
     font-family: "Arial Black", Gadget, sans-serif;
-    background: white url("images/backwall.jpg") no-repeat;
+    background: white url("images/backwall1.jpg") no-repeat;
     background-attachment: fixed;
     background-position: center;
     margin: 0px;
     padding: 0px;
 }
 
-header {
+.cap {
     background: darkred;
-    position: relative;
     padding: 10px;
+    text-align: center;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 1000px 0px;
 }
