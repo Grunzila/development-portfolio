@@ -1,5 +1,5 @@
 body {
-    color:antiquewhite;
+    color: antiquewhite;
     font-family: "Arial Black", Gadget, sans-serif;
     background: white url("images/backwall1.jpg") no-repeat;
     background-attachment: fixed;
@@ -23,6 +23,13 @@ footer {
     text-decoration: underline;
 }
 
+.blurb {
+    padding: 10px;
+    margin: 40px;
+    border: medium dashed green;
+}
+
+/*temporary*/
 h2 {
     margin: 1000px 0px;
 }
