@@ -7,9 +7,15 @@ from django.db import models
 class Blurb(models.Model):
     blurb_text = models.CharField(max_length=200)
     
-class Item(models.Model):
+class ItemDocuments(models.Model):
     item_text = models.CharField(max_length=32)
+    embed_text = models.CharField(max_length=60)
     pub_date = models.DateTimeField('date published')
     
-class Visits(models.Model):
-    visits = models.IntegerField(default=0)
+class ItemAudio(models.Model):
+    item_text = models.CharField(max_length=32)
+    embed_text = models.CharField(max_length=60)
+    pub_date = models.DateTimeField('date published')
+    
+#class Visits(models.Model):
+#    visits = models.IntegerField(default=0)

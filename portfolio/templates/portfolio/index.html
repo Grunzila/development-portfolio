@@ -10,13 +10,33 @@
         <header class="cap">
             -- Paul E. Roylance -- Computer Engineering -- Utah State University --
         </header>
-        <div class="blurb">
-            <p>Picture</p>
-            <p>Blurb</p>
+        <div class="intro">
+            <p>Portfolio:
+            <br>The place to brag about oneself through merit of accomplishment.
+            <br>Ones skill and ability will be apparent through your production.
+            <br>However, begin with a little intro, let me know more about you.</p>
         </div>
-        <h2>documents</h2>
-        <hr>
-        <h2>audiothing</h2>
-        <footer class="cap">Development info</footer>
+        <div class="blurb">
+            <img class="inner_blurb" src="{% static 'portfolio/images/face.png' %}" alt="Profile Image" height="399" width="300">
+            <p class="inner_blurb"><!--{{ blurb.blurb_text }}-->Blurb</p>
+        </div>
+        <div class="document_lead">
+            <h2>documents</h2>
+        </div>
+        <div class="document">
+            stuff
+        </div>
+        <div class="audio_lead">
+            <h2>audiothing</h2>    
+        </div>
+        <div class="audio">
+            stuff
+        </div>
+        <div class="final">
+            Final Thoughts with Jimmy Dean: "EAT MORE MEAT!"
+        </div>
+        <footer class="cap">
+            <p>grunzila@gmail.com</p>
+        </footer>
     </body>
 </html>

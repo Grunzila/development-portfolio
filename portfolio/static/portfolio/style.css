@@ -12,24 +12,32 @@ body {
     background: darkred;
     padding: 10px;
     text-align: center;
+    font-size: large;
 }
 
 header {
     position: sticky;
     top: 0px;
+    border-bottom: 7px solid #600;
 }
 
 footer {
     text-decoration: underline;
 }
 
-.blurb {
-    padding: 10px;
-    margin: 40px;
-    border: medium dashed green;
+.intro, .document_lead, .audio_lead, .final {
+    font-size: large;
+    margin: 100px 20px;
 }
 
-/*temporary*/
-h2 {
-    margin: 1000px 0px;
+.blurb, .document, .audio {
+    background: darkred;
+    border-bottom: 7px solid #600;
+    padding: 10px 0px;
+}
+
+img {
+    border-right: 7px solid #600;
+    border-bottom: 7px solid #600;
+    margin: 10px 0px;
 }
