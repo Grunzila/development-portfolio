@@ -15,7 +15,10 @@ page is reloaded, but will print out all available blurbs. Javascript
 is yet to be utelized; however, javascript is planned to solve the
 issue with the blurbs. An audio item is yet to be included in the
 project. A temporary instance has been created, this will replaced
-when a file has been uploaded.
+when a file has been uploaded. Javascript may also be used to resolve
+two other issues. One is a sticky footer, the other is embed sections
+that automatically adjust to an appropriate height such that a scroll
+vertically is not ever present.
 
 In regards to the proposal, some differences occured. HTML and CSS
 were used much as expected, however, the roles Django and Javascript
@@ -57,3 +60,10 @@ Django struggle to do. I learned that being curious about how to do
 some clever things can end up making the project cooler and easier.
 The project was very much worth my time, I will continue to pursue it
 after the end of class.
+
+-----------------Achievements yet to be accomplished-----------------
+Random Blurb      : 
+Javascript Blurb  : 
+Audio Item        : 
+Sticky Footer     : 
+Auto Embed Height : 
