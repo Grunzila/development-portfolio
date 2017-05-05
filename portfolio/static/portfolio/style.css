@@ -1,31 +1,31 @@
 body {
     color: antiquewhite;
     font-family: "Arial Black", Gadget, sans-serif;
-    background: white url("images/backwall1.jpg") no-repeat;
-    background-attachment: fixed;
+    background: antiquewhite url("images/backwall1.jpg") no-repeat;
     background-position: center;
+    background-attachment: fixed;
     margin: 0px;
     padding: 0px;
 }
 
 .cap {
+    font-size: large;
+    text-align: center;
     background: darkred;
     padding: 10px;
-    text-align: center;
-    font-size: large;
 }
 
 header {
-    position: sticky;
     top: 0px;
+    position: sticky;
     border-bottom: 7px solid #600;
 }
 
 footer {
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
+    position: absolute;
 }
 
 .intro, .document_lead, .audio_lead, .final {
@@ -35,8 +35,8 @@ footer {
 
 .blurb, .document, .audio {
     background: darkred;
-    border-bottom: 7px solid #600;
     padding: 10px 0px;
+    border-bottom: 7px solid #600;
 }
 
 img {
@@ -60,7 +60,7 @@ a {
 embed {
     background: antiquewhite;
     height: 400px;
-    width: 80%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: block;
