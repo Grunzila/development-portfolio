@@ -7,4 +7,12 @@ from .models import Blurb, ItemDocuments, ItemAudio
 
 class IndexView(generic.ListView):
     template_name = 'portfolio/index.html'
-    model = Blurb, ItemDocuments, ItemAudio
+    model = Blurb#, ItemDocuments, ItemAudio
+    
+class DocumentView(generic.DetailView):
+    template_name = 'portfolio/document.html'
+    model = ItemDocuments
+    
+class AudioView(generic.DetailView):
+    template_name = 'portfolio/audio.html'
+    model = ItemAudio
