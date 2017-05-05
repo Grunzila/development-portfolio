@@ -64,6 +64,6 @@ after the end of class.
 -----------------Achievements yet to be accomplished-----------------
 Random Blurb      : 
 Javascript Blurb  : 
-Audio Item        : 
+Audio Item        : [ 05 / 05 / 2017 ]
 Sticky Footer     : 
 Auto Embed Height : 
