@@ -1,8 +1,9 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Portfolio -- Paul Roylance</title>
-        {% load staticfiles %}
+        
         <link rel="stylesheet" type="text/css" href="{% static 'portfolio/style.css' %}"/>
     </head>
     <body>
@@ -25,14 +26,16 @@
         </div>
         <div class="document">
             {% for doc in document %}
-            <a href="{% url 'portfolio:doc' doc.id %}" target="_blank">{{ doc.item_text }}</a>
+            <a href="{% url 'portfolio:document' doc.id %}" target="_blank">{{ doc.item_text }}</a>
             {% endfor %}
         </div>
         <div class="audio_lead">
             <h2>audiothings</h2>    
         </div>
         <div class="audio">
-            <a href="https://www.w3schools.com" target="_blank">Put Django Here 2</a>
+            {% for aud in audio %}
+            <a href="{% url 'portfolio:audio' aud.id %}" target="_blank">{{ aud.item_text }}</a>
+            {% endfor %}
         </div>
         <div class="final">
             <p>You know the satisfaction of finishing a good book? I am not getting that here.</p> 

@@ -1,8 +1,8 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
     <head>
         <title>Portfolio -- Paul Roylance</title>
-        
         <link rel="stylesheet" type="text/css" href="/static/portfolio/style.css"/>
     </head>
     <body>
@@ -10,7 +10,7 @@
         <header class="cap">
             -- Paul E. Roylance -- Computer Engineering -- Utah State University --
         </header>
-        <embed src="static/portfolio/documents/final_report.txt" type="text/plain">
+        <embed src="{{ itemdocument.embed_text }}" type="text/plain">
         <footer class="cap">
             <p>Contact me here -- grunzila@gmail.com</p>
         </footer>
