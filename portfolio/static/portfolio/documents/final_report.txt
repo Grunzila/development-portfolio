@@ -16,3 +16,16 @@ is yet to be utelized; however, javascript is planned to solve the
 issue with the blurbs. An audio item is yet to be included in the
 project. A temporary instance has been created, this will replaced
 when a file has been uploaded.
+
+In regards to the proposal, some differences occured. HTML and CSS
+were used much as expected, however, the roles Django and Javascript
+were much unexpect. I anticipated Django would be used to hold data
+that I would swap fairly randomly. Django is still expected to help
+do this with the Blurbs (once resolved). The primary role of Django
+is to create new pages with some particular item of my creation. This
+is done dynamically through admin. This exceeded my expectations and
+is very useful. The role of Javascript became obfuscated when I
+realized that the proposed task of user interface was ridiculous and
+unnecessary. Now I plan to solve the blurb issue with Javascript as
+I cannot figure how to do it with Django. Javascript is not terribly
+needed. The uses are few and far between.
