@@ -1,1 +1,18 @@
-Not yet written. 
+Paul E. Roylance
+CS 2610
+5 May 2017
+
+Project Report
+
+This project has achieved an index page with the necessary format to
+be beautiful and a coherent profile. The index page also contains the
+necessary qualities to be a portfolio as it contains links to Django
+template pages for projects. CSS styling is consistent between pages,
+HTML contains dynamic Django, and pages are easily added through the
+admin. Some items have not been accomplished at the time this report
+was written. Yet to be achieved is a blurb that is different when the
+page is reloaded, but will print out all available blurbs. Javascript
+is yet to be utelized; however, javascript is planned to solve the
+issue with the blurbs. An audio item is yet to be included in the
+project. A temporary instance has been created, this will replaced
+when a file has been uploaded.
