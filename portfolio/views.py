@@ -3,15 +3,15 @@ from django.views import generic
 
 # Create your views here.
 
-from .models import Blurb, ItemDocuments, ItemAudio
+from .models import Blurb, ItemDocument, ItemAudio
 
 class IndexView(generic.ListView):
     template_name = 'portfolio/index.html'
-    model = Blurb#, ItemDocuments, ItemAudio
+    model = Blurb#, ItemDocument, ItemAudio
     
 class DocumentView(generic.DetailView):
     template_name = 'portfolio/document.html'
-    model = ItemDocuments
+    model = ItemDocument
     
 class AudioView(generic.DetailView):
     template_name = 'portfolio/audio.html'
