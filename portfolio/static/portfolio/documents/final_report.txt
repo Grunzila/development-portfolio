@@ -47,3 +47,13 @@ profile for your creations, which could be updated daily in bloggish
 fashion. As a whole, it may not be terribly impressive, but it is my
 creation, so it has sentimental value to me as an online portfolio.
 Essentially, it is a personal webpage.
+
+I learned a lot about using the internet as a resource, I read forums
+and checked out sites for ideas. I became much more familiar in the
+structure of Django and on how to manipulate some urls and views to
+have more control. I learned a bit mor on how Javascript is useful
+(and painful) to apply to some things other utilities such as CSS or
+Django struggle to do. I learned that being curious about how to do
+some clever things can end up making the project cooler and easier.
+The project was very much worth my time, I will continue to pursue it
+after the end of class.
