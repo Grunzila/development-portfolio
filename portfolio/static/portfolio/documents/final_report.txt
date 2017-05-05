@@ -29,3 +29,10 @@ realized that the proposed task of user interface was ridiculous and
 unnecessary. Now I plan to solve the blurb issue with Javascript as
 I cannot figure how to do it with Django. Javascript is not terribly
 needed. The uses are few and far between.
+
+No code was recycled from previous projects. Django and Javascript
+projects were referred to as an aide to properly write needed code.
+The only item recycled is the project proposal merely as a proof of
+concept. The greatest semblance of a previous assignment is the polls
+Django tutorial. This was a strong reference in producing Django code
+in the beginning.
