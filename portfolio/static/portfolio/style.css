@@ -41,3 +41,15 @@ img {
     border-bottom: 7px solid #600;
     margin: 10px 0px;
 }
+
+a {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    color: antiquewhite;
+    text-decoration:none;
+    background: #4C4C4C;
+    border: 5px solid #060606;
+    margin: 10px;
+    padding: 0px;
+}
