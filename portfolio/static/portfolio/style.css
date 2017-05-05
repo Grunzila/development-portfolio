@@ -37,6 +37,10 @@ footer {
     border-bottom: 7px solid #600;
 }
 
+.inner_blurb {
+    display: inline;
+}
+
 img {
     border-right: 7px solid #600;
     border-bottom: 7px solid #600;
