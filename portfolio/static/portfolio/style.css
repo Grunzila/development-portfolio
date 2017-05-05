@@ -22,10 +22,8 @@ header {
 }
 
 footer {
-    left: 0;
-    right: 0;
+    width: 100%;
     bottom: 0;
-    position: absolute;
 }
 
 .intro, .document_lead, .audio_lead, .final {
