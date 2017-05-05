@@ -36,3 +36,14 @@ The only item recycled is the project proposal merely as a proof of
 concept. The greatest semblance of a previous assignment is the polls
 Django tutorial. This was a strong reference in producing Django code
 in the beginning.
+
+Existing products that seem to be the most similar to this project
+are Facebook, GitHub, and blogs. Like Facebook, the project contains
+a profile of the user (just myself at this time as that quality is
+static). Like GitHub, creations are user orientated, as to display
+all things by one user at a time. Like blogs, you could post writings
+or some daily fabrication. As a whole, the project is like a public
+profile for your creations, which could be updated daily in bloggish
+fashion. As a whole, it may not be terribly impressive, but it is my
+creation, so it has sentimental value to me as an online portfolio.
+Essentially, it is a personal webpage.
