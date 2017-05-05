@@ -21,6 +21,13 @@ header {
     border-bottom: 7px solid #600;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .intro, .document_lead, .audio_lead, .final {
     font-size: large;
     margin: 100px 20px;

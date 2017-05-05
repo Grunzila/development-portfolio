@@ -7,7 +7,13 @@ from .models import Blurb, ItemDocument, ItemAudio
 
 class IndexView(generic.ListView):
     template_name = 'portfolio/index.html'
-    model = Blurb#, ItemDocument, ItemAudio
+    model = Blurb
+    
+    def get_context_data(self, **kwargs):
+        ctx = super(IndexView, self).get_context_data(**kwargs)
+        ctx['audio'] = ItemAudio.objects.all()
+        ctx['document'] = ItemDocument.objects.all()
+        return ctx
     
 class DocumentView(generic.DetailView):
     template_name = 'portfolio/document.html'
