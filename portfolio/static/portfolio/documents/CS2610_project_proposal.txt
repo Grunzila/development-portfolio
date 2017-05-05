@@ -1,0 +1,36 @@
+Paul E. Roylance
+CS 2610
+9 April 2017
+
+Final Project Proposal
+
+This project will be focused on developing a personal portfolio site.
+The initial page will contain links to other pages which will contain
+an item I have made. For the sake of this project proposal, there
+will be at least two items linked to the page for proof of concept.
+
+The graders will be able to test the project works by checking three
+things. The first is to visit the initial page multiple times to
+witness the dynamic qualities. The second is to follow the links in
+to the two items included to check proof of portfolio concept. Third
+is to follow urls I will include in a README.txt file to ensure the
+urls from django are all working (there will be more than three for
+the three pages I have explicitly enumerated at this time).
+
+We have discussed HTML, CSS, JAVASCRIPT, and DJANGO in class. I will
+use HTML to create most text and items on all pages. I will use CSS
+to make all pages pretty. I will use JAVASCRIPT to do user interface
+portions. I will use DJANGO to make the initial page dynamic and
+keep data on the visit number a person has made to the initial page.
+
+I will deliver an initial page with a clear section of items I have
+made. Items will have matching format to the initial page. Pages
+will have a header. The initial page will have a dynamic background
+music or blurb. The site will be pretty (yes, this is vague, but the
+point is that your eyes will not hurt).
+
+I cannot say the project is based on any prior work. I could say it
+is based on code I have wanted to make in previous assignments, but
+nothing significant to my knowledge that has been done. This project
+will be more than anything I have done before in any assignment in
+the class.

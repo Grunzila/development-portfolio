@@ -21,10 +21,6 @@ header {
     border-bottom: 7px solid #600;
 }
 
-footer {
-    text-decoration: underline;
-}
-
 .intro, .document_lead, .audio_lead, .final {
     font-size: large;
     margin: 100px 20px;

@@ -3,8 +3,8 @@ from django.views import generic
 
 # Create your views here.
 
-from .models import Blurb
+from .models import Blurb, ItemDocuments, ItemAudio
 
 class IndexView(generic.ListView):
     template_name = 'portfolio/index.html'
-    model = Blurb
+    model = Blurb, ItemDocuments, ItemAudio

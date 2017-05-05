@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Portfolio -- Paul Roylance</title>
-        
-        <link rel="stylesheet" type="text/css" href="/static/portfolio/style.css"/>
+        {% load staticfiles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/style.css' %}"/>
     </head>
     <body>
         <!--Name-Occupation-Education-->
@@ -12,12 +12,12 @@
         </header>
         <div class="intro">
             <p>Portfolio:
-            <br>The place to brag about oneself through merit of accomplishment.
-            <br>Ones skill and ability will be apparent through your production.
-            <br>However, begin with a little intro, let me know more about you.</p>
+            <br>Brag about yourself, they said. Really sell yourself, they said.
+            <br>Should I even trust those voices? Probably. They have real jobs.
+            <br>I will make this concise then. Ahem. *Bragging*</p>
         </div>
         <div class="blurb">
-            <img class="inner_blurb" src="/static/portfolio/images/face.png" alt="Profile Image" height="399" width="300">
+            <img class="inner_blurb" src="{% static 'portfolio/images/face.png' %}" alt="Profile Image" height="399" width="300">
             <p class="inner_blurb"><!---->Blurb</p>
         </div>
         <div class="document_lead">
@@ -28,16 +28,16 @@
             <a href="https://www.w3schools.com" target="_blank">Put Django Here 2</a>
         </div>
         <div class="audio_lead">
-            <h2>audiothing</h2>    
+            <h2>audiothings</h2>    
         </div>
         <div class="audio">
-            stuff
+            <a href="https://www.w3schools.com" target="_blank">Put Django Here 2</a>
         </div>
         <div class="final">
-            Final Thoughts with Jimmy Dean: "EAT MORE MEAT!"
+            <p>You know the satisfaction of finishing a good book? I am not getting that here.</p> 
         </div>
         <footer class="cap">
-            <p>grunzila@gmail.com</p>
+            <p>Contact me here -- grunzila@gmail.com</p>
         </footer>
     </body>
 </html>
