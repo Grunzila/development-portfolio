@@ -18,7 +18,9 @@
         </div>
         <div class="blurb">
             <img class="inner_blurb" src="{% static 'portfolio/images/face.png' %}" alt="Profile Image" height="399" width="300">
-            <p class="inner_blurb">{{ blurb.blurb_text.0 }}</p>
+            {% for words in object_list %}
+            <div class="inner_blurb words">{{ words.blurb_text }}</div>
+            {% endfor %}
         </div>
         <div class="document_lead">
             <h2>documents</h2>

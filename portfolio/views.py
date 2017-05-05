@@ -1,5 +1,6 @@
 from django.shortcuts import get_object_or_404, render
 from django.views import generic
+import random
 
 # Create your views here.
 
@@ -14,6 +15,7 @@ class IndexView(generic.ListView):
         ctx['audio'] = ItemAudio.objects.all()
         ctx['document'] = ItemDocument.objects.all()
         return ctx
+        
     
 class DocumentView(generic.DetailView):
     template_name = 'portfolio/document.html'

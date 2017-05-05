@@ -1,0 +1,1 @@
+var blurbs = document.body.querySelectorAll('.words');
