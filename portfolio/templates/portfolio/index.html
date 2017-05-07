@@ -16,10 +16,10 @@
             <br>Should I even trust those voices? Probably. They have real jobs.
             <br>I will make this concise then. Ahem. *Bragging*</p>
         </div>
-        <div class="blurb">
+        <div class="blurb" id="blurb">
             <img class="inner_blurb" src="{% static 'portfolio/images/face.png' %}" alt="Profile Image" height="399" width="300">
             {% for words in object_list %}
-            <div class="inner_blurb words">{{ words.blurb_text }}</div>
+            <div class="inner_blurb" id="words">{{ words.blurb_text }}</div>
             {% endfor %}
         </div>
         <div class="document_lead">
@@ -41,6 +41,7 @@
         <div class="final">
             <p>You can't fire me! Slaves gotta be sold.</p> 
         </div>
+        <div class="push"></div>
         <footer class="cap">
             <p>Contact me here -- grunzila@gmail.com</p>
         </footer>

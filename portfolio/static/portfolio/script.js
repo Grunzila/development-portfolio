@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-var parent = document.getElementsByClassName("blurb");
+var parent = document.querySelectorAll("blurb");
 var children = document.getElementsByClassName(".words");
 children.length;
 children[0] = 'Hangry';
